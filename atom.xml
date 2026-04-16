@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <author>
-    <name>博主</name>
+    <name>墨程</name>
   </author>
   <generator uri="https://hexo.io/">Hexo</generator>
   <icon>https://superxuan05.github.io/newblog/favicon.ico</icon>
   <id>https://superxuan05.github.io/newblog/</id>
   <link href="https://superxuan05.github.io/newblog/" rel="alternate"/>
   <link href="https://superxuan05.github.io/newblog/atom.xml" rel="self"/>
-  <rights>All rights reserved 2026, 博主</rights>
+  <rights>All rights reserved 2026, 墨程</rights>
   <subtitle>分享技术心得与生活感悟</subtitle>
   <title>我的技术博客</title>
   <updated>2026-04-16T09:44:32.785Z</updated>
   <entry>
     <author>
-      <name>博主</name>
+      <name>墨程</name>
     </author>
     <category term="学习" scheme="https://superxuan05.github.io/newblog/tags/%E5%AD%A6%E4%B9%A0/"/>
     <category term="编程" scheme="https://superxuan05.github.io/newblog/tags/%E7%BC%96%E7%A8%8B/"/>
@@ -30,7 +30,7 @@
   </entry>
   <entry>
     <author>
-      <name>博主</name>
+      <name>墨程</name>
     </author>
     <category term="前端" scheme="https://superxuan05.github.io/newblog/tags/%E5%89%8D%E7%AB%AF/"/>
     <category term="开发" scheme="https://superxuan05.github.io/newblog/tags/%E5%BC%80%E5%8F%91/"/>
@@ -46,7 +46,7 @@
   </entry>
   <entry>
     <author>
-      <name>博主</name>
+      <name>墨程</name>
     </author>
     <category term="测试" scheme="https://superxuan05.github.io/newblog/tags/%E6%B5%8B%E8%AF%95/"/>
     <category term="新文章" scheme="https://superxuan05.github.io/newblog/tags/%E6%96%B0%E6%96%87%E7%AB%A0/"/>
@@ -61,7 +61,7 @@
   </entry>
   <entry>
     <author>
-      <name>博主</name>
+      <name>墨程</name>
     </author>
     <id>https://superxuan05.github.io/newblog/2026/04/15/hello-world/</id>
     <link href="https://superxuan05.github.io/newblog/2026/04/15/hello-world/"/>
