@@ -702,8 +702,8 @@ blockquote {
 }
 body {
     background: #f6f8fa;
-    color: #1e3e3f;
-    font: 500 14px Lexend, "Noto Sans SC", sans-serif;
+    color: #333;
+    font: 400 15px "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
@@ -719,8 +719,8 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1e3e3f;
-    font-weight: bold;
+    color: #222;
+    font-weight: 600;
     margin: 15px 0;
     word-break: keep-all;
 }
@@ -978,13 +978,13 @@ ol li {
 @media (prefers-color-scheme: dark) {
     :root {
         --bg-color: #1a1a1a;
-        --text-color: #e0e0e0;
+        --text-color: #f0f0f0;
         --card-bg: #2d2d2d;
         --border-color: #444;
         --primary-color: #66afef;
         --hover-color: #8ab5ff;
         --menu-bg: #1a1a1a;
-        --menu-text: #e0e0e0;
+        --menu-text: #f0f0f0;
         --code-bg: #333;
         --blockquote-bg: #2d2d2d;
         --table-even: #333;
@@ -1093,7 +1093,7 @@ ol li {
     }
     
     h1, h2, h3, h4, h5, h6 {
-        color: var(--text-color);
+        color: #fff;
     }
     
     blockquote {
