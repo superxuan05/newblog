@@ -702,7 +702,7 @@ blockquote {
 }
 body {
     background: #f6f8fa;
-    color: #333;
+    color: #222;
     font: 400 15px "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
     overflow-x: hidden;
     width: 100%;
@@ -719,7 +719,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #222;
+    color: #111;
     font-weight: 600;
     margin: 15px 0;
     word-break: keep-all;
