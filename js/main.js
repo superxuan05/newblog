@@ -64,9 +64,19 @@ const app = Vue.createApp({
             if (this.isDarkMode) {
                 document.documentElement.classList.add('dark-mode');
                 if (toggle) toggle.innerHTML = '<i class="fas fa-sun"></i>';
+                // 更新看板娘样式
+                const live2dContainer = document.getElementById('live2d-container');
+                if (live2dContainer) {
+                    live2dContainer.style.background = 'transparent';
+                }
             } else {
                 document.documentElement.classList.remove('dark-mode');
                 if (toggle) toggle.innerHTML = '<i class="fas fa-moon"></i>';
+                // 更新看板娘样式
+                const live2dContainer = document.getElementById('live2d-container');
+                if (live2dContainer) {
+                    live2dContainer.style.background = 'transparent';
+                }
             }
         },
     },

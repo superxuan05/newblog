@@ -1163,3 +1163,23 @@ ol li {
         color: var(--text-color);
     }
 }
+
+/* 看板娘样式 */
+#live2d-container {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* 修复live2d-widget的默认样式 */
+#l2d-widget {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.l2d-widget {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
