@@ -905,19 +905,46 @@ code {
     line-height: 2.5;
     padding: 4px 8px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #111;
     font-weight: 600;
     margin: 15px 0;
     word-break: keep-all;
 }
-h1 {
-    font-size: 30px;
+
+/* 文章标题样式 */
+.article h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+    text-align: center;
+    margin: 20px 0 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #66afef;
+    position: relative;
+}
+
+.article h1::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 2px;
+    background: #66afef;
+}
+
+/* 深色模式下的文章标题样式 */
+@media (prefers-color-scheme: dark) {
+    .article h1 {
+        color: #fff;
+        border-bottom-color: var(--primary-color);
+    }
+    
+    .article h1::after {
+        background: var(--primary-color);
+    }
 }
 h2 {
     font-size: 27px;
